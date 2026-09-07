@@ -2,49 +2,13 @@
 
 // ============ CONFIGURACIÓN DE CANALES ============
 const CANALES = {
-  margarita: {
-    nombre: "Margarita 24/7",
+  elnuevelitoral: {
+    nombre: "elnuevelitoral",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
       {
-        nombre: "Margarita S03E01",
-        url: "https://c4-limit.cuevana4br.com/a00cfca7a02a71f1a3b24177d1c00102/6acafb28095848e386357329c6d28016-microframe-ld.m3u8?hdnts=exp=1787944209_acl=/a00cfca7a02a71f1a3b24177d1c00102/*_hmac=adaf3cc1a359c8ee9a0c7482addd7054ac65e41504eb7b9938626e470ff3d803",
-      },
-      {
-        nombre: "Margarita S03E02",
-        url: "https://c4-limit.cuevana4br.com/20129b55a02b71f1810f4177d0d10102/bd19f7c89b0a44a78f60be6e7245f090-microframe-ld.m3u8?hdnts=exp=1787944454_acl=/20129b55a02b71f1810f4177d0d10102/*_hmac=f18577c2012da6259d357e066f58ec14f38ba27f1755d20224f9eaa7283ed1b4",
-      },
-       {
-        nombre: "Margarita S03E03",
-        url: "https://c4-limit.cuevana4br.com/f0bdb906a02b71f181304077c0c30102/556b2faff5e2420493b0abed48c1d4c7-microframe-ld.m3u8?hdnts=exp=1787944743_acl=/f0bdb906a02b71f181304077c0c30102/*_hmac=27a8b386e7a94521a2a61ad650086e29c783fcdca2ddd4fbd02b56d8ec1bf16c",
-      },
-      {
-        nombre: "Margarita S03E04",
-        url: "https://c4-limit.cuevana4br.com/403dac20a02c71f1a119166993960102/0d28a1acf2354c0c80e7953d0884b7f7-microframe-ld.m3u8?hdnts=exp=1787944713_acl=/403dac20a02c71f1a119166993960102/*_hmac=085efe8fc0a658601910955ff8a9c92d530817ada6a28fabed8fe2b87ce6fc96",
-      },
-      {
-        nombre: "Margarita S03E05",
-        url: "https://c4-limit.cuevana4br.com/00c6824ca02c71f1b3ad4077c0c20102/1e38140fd0b549bf89cc09ce25fe1605-microframe-ld.m3u8?hdnts=exp=1787922442_acl=/00c6824ca02c71f1b3ad4077c0c20102/*_hmac=5bc6e8e9b2574b08fc29088ad1a967f94395dced5725f578569c1d08c4aa3d87",
-      },
-      {
-        nombre: "Margarita S03E06",
-        url: "https://c4-limit.cuevana4br.com/a00b3c80a50e71f19101150ad0e00102/e76ace866ee5488c9f9ac2ff2112d794-microframe-ld.m3u8?hdnts=exp=1788350457_acl=/a00b3c80a50e71f19101150ad0e00102/*_hmac=812580d3c8db0e3408f03e7bed402f2fb44e8b6312320f0e075879c0269c245c",
-      },
-      {
-        nombre: "Margarita S03E07",
-        url: "https://c4-limit.cuevana4br.com/c0063580a50e71f199354176c1c20102/3e21c6d763f942869b6de6b22fbe1116-microframe-ld.m3u8?hdnts=exp=1788350464_acl=/c0063580a50e71f199354176c1c20102/*_hmac=be9c44c31c007f3565b849d2fbd45a02f8b136687c6c62ab096e566386eba9b1",
-      },
-      {
-        nombre: "Margarita S03E08",
-        url: "https://c4-limit.cuevana4br.com/20587e38a51071f1a53b166993960102/619b28d75e9a4e16838bdeec758e554a-microframe-ld.m3u8?hdnts=exp=1788350465_acl=/20587e38a51071f1a53b166993960102/*_hmac=6dc0caaee041e792e9cadb6371a8483d7a78f2471110da2bdcda22c56d9b0e0a",
-      },
-       {
-        nombre: "Margarita S03E09",
-        url: "https://c4-limit.cuevana4br.com/60bb5880a50e71f1bdcf3109c5840102/54b77efa870746e6b915f01f02b801df-microframe-ld.m3u8?hdnts=exp=1788350547_acl=/60bb5880a50e71f1bdcf3109c5840102/*_hmac=0ed420d7032c7d0db8d7a006bb29b8d2be2d333e3cf7bd5fe8eb7ebb4dedd23a",
-      },
-      {
-        nombre: "Margarita S03E10",
-        url: "https://c4-limit.cuevana4br.com/c0aa57c5a51171f19101150ad0e00102/b4c7b8605e2248d3a206946c535b553c-microframe-ld.m3u8?hdnts=exp=1788350533_acl=/c0aa57c5a51171f19101150ad0e00102/*_hmac=0df06a0634e0e6890b0c8e270658691ca953ead2ac80f69ab0028f1b2b5df94c",
+        nombre: "elnuevelitoral",
+        url: "http://45.226.28.9:8085/Live/f6a4fcaf4ec8aba3143d297b68b311f6/local-nuevelitoral_480.m3u8",
       },
     ],
   },
