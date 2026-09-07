@@ -23,7 +23,6 @@ const CANALES = {
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
       },
     ],
-    ],
   },
   gravityfalls: {
     nombre: "Gravity Falls 24/7",
