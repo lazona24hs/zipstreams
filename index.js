@@ -124,6 +124,7 @@ const CANALES = {
         nombre: "Bajoterra S01E04",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
       },
+    
     ],
   },
   zipstream: {
@@ -133,12 +134,72 @@ const CANALES = {
       {
         inicio: 0,
         fin: 6,
-        categoria: "Peliculas Noche",
+        categoria: "Noche",
         episodios: [
           {
-            nombre: "Pelicula Noche 1",
-            url: "https://hugh.cdn.rumble.cloud/video/fwe2/84/s8/2/S/L/5/K/SL5KA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=308797440-308808921",
-          },
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/c/N/5/K/cN5KA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=102046208-102053810",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+         {
+        nombre: "Bajoterra S01E01",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/38/s8/2/A/F/Z/V/AFZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678022144-678035468",
+      },
+      {
+        nombre: "Bajoterra S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
+      },
+      {
+        nombre: "Bajoterra S01E03",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/89/s8/2/2/U/Z/V/2UZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679327232-679340467",
+      },
+      {
+        nombre: "Bajoterra S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
+      },
+          {
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+           {
+        nombre: "Gravity Falls S01E01",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/06/s8/2/G/M/D/V/GMDVA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166684672-166697264",
+      },
+      {
+        nombre: "Gravity Falls S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/9f/s8/2/o/P/D/V/oPDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=665805824-665818855",
+      },
+      {
+        nombre: "Gravity Falls S01E03",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/79/s8/2/Q/Q/D/V/QQDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=675152384-675165606",
+      },
+      {
+        nombre: "Gravity Falls S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/69/s8/2/M/S/D/V/MSDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=689944064-689957599",
+      },
+          {
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+      {
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
+      },
         ],
       },
       {
@@ -147,20 +208,120 @@ const CANALES = {
         categoria: "Variados",
         episodios: [
           {
-            nombre: "Variados 1",
-            url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
-          },
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/84/s8/2/S/L/5/K/SL5KA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=308797440-308808921",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/5b/s8/2/Q/W/9/G/QW9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=156272128-156283815",
+      },
+      {
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/2b/s8/2/i/Q/9/G/iQ9GA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=355174400-355187672",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/c/N/5/K/cN5KA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=102046208-102053810",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+          {
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+      {
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/94/s8/2/o/T/-/V/oT-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=167813120-167825834",
+      },
+      {
+        nombre: "video6",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
+      },
         ],
       },
       {
         inicio: 12,
         fin: 18,
-        categoria: "Peliculas Tarde",
+        categoria: "Tardes",
         episodios: [
           {
-            nombre: "Pelicula Tarde 1",
-            url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
-          },
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/c/N/5/K/cN5KA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=102046208-102053810",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+         {
+        nombre: "Bajoterra S01E01",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/38/s8/2/A/F/Z/V/AFZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678022144-678035468",
+      },
+      {
+        nombre: "Bajoterra S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
+      },
+      {
+        nombre: "Bajoterra S01E03",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/89/s8/2/2/U/Z/V/2UZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679327232-679340467",
+      },
+      {
+        nombre: "Bajoterra S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
+      },
+          {
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+           {
+        nombre: "Gravity Falls S01E01",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/06/s8/2/G/M/D/V/GMDVA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166684672-166697264",
+      },
+      {
+        nombre: "Gravity Falls S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/9f/s8/2/o/P/D/V/oPDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=665805824-665818855",
+      },
+      {
+        nombre: "Gravity Falls S01E03",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/79/s8/2/Q/Q/D/V/QQDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=675152384-675165606",
+      },
+      {
+        nombre: "Gravity Falls S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/69/s8/2/M/S/D/V/MSDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=689944064-689957599",
+      },
+          {
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+      {
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
+      },
         ],
       },
       {
@@ -168,10 +329,50 @@ const CANALES = {
         fin: 24,
         categoria: "Novelas y Series",
         episodios: [
+           {
+        nombre: "Bajoterra S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
+      },
+        {
+        nombre: "Bajoterra S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
+      },
+         {
+        nombre: "Gravity Falls S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/69/s8/2/M/S/D/V/MSDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=689944064-689957599",
+      },
+      {
+        nombre: "Gravity Falls S01E05",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/11/s8/2/m/U/D/V/mUDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=632708096-632720414",
+      },
+      {
+        nombre: "Gravity Falls S01E06",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/58/s8/2/K/e/L/V/KeLVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=698421760-698435390",
+      },
+      {
+        nombre: "Gravity Falls S01E07",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/5d/s8/2/u/s/L/V/usLVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=698655744-698669370",
+      },
+      {
+        nombre: "Gravity Falls S01E08",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/50/s8/2/4/y/L/V/4yLVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=665725440-665738471",
+      },
           {
-            nombre: "Serie 1",
-            url: "https://hugh.cdn.rumble.cloud/video/fwe2/06/s8/2/G/M/D/V/GMDVA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166684672-166697264",
-          },
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/94/s8/2/o/T/-/V/oT-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=167813120-167825834",
+      },
+      {
+        nombre: "video6",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
+      },
         ],
       },
     ],
