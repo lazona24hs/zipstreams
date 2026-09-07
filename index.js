@@ -24,6 +24,32 @@ const CANALES = {
       },
     ],
   },
+    elchavo: {
+    nombre: "El Chavo 24/7",
+    epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
+    episodios: [
+      {
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/84/s8/2/S/L/5/K/SL5KA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=308797440-308808921",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/5b/s8/2/Q/W/9/G/QW9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=156272128-156283815",
+      },
+      {
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/2b/s8/2/i/Q/9/G/iQ9GA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=355174400-355187672",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/c/N/5/K/cN5KA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=102046208-102053810",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+    ],
+  },
   gravityfalls: {
     nombre: "Gravity Falls 24/7",
     epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
