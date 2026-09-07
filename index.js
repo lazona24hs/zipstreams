@@ -8,7 +8,7 @@ const CANALES = {
     episodios: [
       {
         nombre: "video1",
-        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+        url: "http://redworld.pro:8880/series/263738263828/mtRGzMLrXMd2/533877.mp4",
       },
       {
         nombre: "video2",
@@ -16,7 +16,7 @@ const CANALES = {
       },
       {
         nombre: "video3",
-        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+        url: "http://redworld.pro:8880/series/263738263828/mtRGzMLrXMd2/534142.mp4",
       },
       {
         nombre: "video4",
