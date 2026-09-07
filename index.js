@@ -12,7 +12,7 @@ const CANALES = {
       },
       {
         nombre: "video2",
-        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
       },
       {
         nombre: "video3",
@@ -20,7 +20,7 @@ const CANALES = {
       },
       {
         nombre: "video4",
-        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
       },
     ],
   },
