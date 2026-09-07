@@ -2,13 +2,25 @@
 
 // ============ CONFIGURACIÓN DE CANALES ============
 const CANALES = {
-  elnuevelitoral: {
-    nombre: "elnuevelitoral",
+  simpson: {
+    nombre: "Los Simpsons 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
       {
-        nombre: "elnuevelitoral",
-        url: "http://45.226.28.9:8085/Live/f6a4fcaf4ec8aba3143d297b68b311f6/local-nuevelitoral_480.m3u8",
+        nombre: "video1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video2",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/23/s8/2/W/9/9/V/W99VA.gaa.mp4?u=0&b=0",
+      },
+      {
+        nombre: "video3",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video4",
+        url: "http://redworld.pro:8880/series/263738263828/mtRGzMLrXMd2/534143.mp4",
       },
     ],
   },
