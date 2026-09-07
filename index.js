@@ -2,7 +2,7 @@
 
 // ============ CONFIGURACIÓN DE CANALES ============
 const CANALES = {
-  bluey: {
+  margarita: {
     nombre: "Margarita 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
