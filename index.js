@@ -30,6 +30,26 @@ const CANALES = {
         nombre: "video6",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
       },
+      {
+        nombre: "video7",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/bb/s8/2/s/a/f/W/safWA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166760448-166773045",
+      },
+      {
+        nombre: "video8",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/90/s8/2/i/g/f/W/igfWA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=173828608-173841714",
+      },
+      {
+        nombre: "video9",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/b1/s8/2/6/x/f/W/6xfWA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=350966784-350979875",
+      },
+      {
+        nombre: "video10",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/38/s8/2/A/y/f/W/AyfWA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=181150720-181164429",
+      },
+      {
+        nombre: "video11",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/c5/s8/2/0/5/-/V/05-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168055808-168068526",
+      },
     ],
   },
     elchavo: {
@@ -55,6 +75,34 @@ const CANALES = {
       {
         nombre: "video5",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+            {
+        nombre: "video7",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/e4/s8/2/C/4/6/s/C46sA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=320742912-320754883",
+      },
+      {
+        nombre: "video8",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+      {
+        nombre: "video9",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/46/s8/2/V/I/u/D/VIuDy.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=82493440-82499666",
+      },
+      {
+        nombre: "video10",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/f9/s8/2/1/y/g/G/1ygGy.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=89126400-89133107",
+      },
+      {
+        nombre: "video11",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/54/s8/2/d/8/T/G/d8TGy.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=216800768-216808842",
+      },
+      {
+        nombre: "video12",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/db/s8/2/E/2/6/s/E26sA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=328909312-328921591",
+      },
+      {
+        nombre: "video13",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/f5/s8/2/z/U/X/F/zUXFy.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=74253312-74258857",
       },
     ],
   },
