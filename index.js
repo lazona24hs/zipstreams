@@ -1,4 +1,4 @@
-// // BLUEY 24/7 & GRAVITY FALLS 24/7 & BAJOTERRA 24/7 - Cloudflare Worker HLS lineal
+// BLUEY 24/7 & GRAVITY FALLS 24/7 & BAJOTERRA 24/7 - Cloudflare Worker HLS lineal
 
 // ============ CONFIGURACIÓN DE CANALES ============
 const CANALES = {
@@ -6,7 +6,7 @@ const CANALES = {
     nombre: "Los Simpsons 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
-      {
+            {
         nombre: "video1",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
       },
@@ -22,17 +22,17 @@ const CANALES = {
         nombre: "video4",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
       },
-      {
+            {
         nombre: "video5",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/94/s8/2/o/T/-/V/oT-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=167813120-167825834",
       },
-      {
+        {
         nombre: "video6",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
       },
     ],
   },
-  elchavo: {
+    elchavo: {
     nombre: "El Chavo 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
@@ -124,19 +124,13 @@ const CANALES = {
         nombre: "Bajoterra S01E04",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
       },
-    
     ],
   },
-  zipstream: {
-    nombre: "ZIPStream 24/7",
-    epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
-    bloquesHorarios: [
+  ziptvstream: {
+    nombre: "ZipTVstream 24/7",
+    epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
+    episodios: [
       {
-        inicio: 0,
-        fin: 6,
-        categoria: "Noche",
-        episodios: [
-          {
         nombre: "video4",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/37/s8/2/A/O/4/3/AO43z.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1893749248-1893821382",
       },
@@ -152,14 +146,7 @@ const CANALES = {
         nombre: "video7",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/32/s8/2/E/W/5/L/EW5Lz.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1491895296-1491951705",
       },
-        ],
-      },
       {
-        inicio: 6,
-        fin: 12,
-        categoria: "Variados",
-        episodios: [
-          {
         nombre: "video1",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/84/s8/2/S/L/5/K/SL5KA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=308797440-308808921",
       },
@@ -203,14 +190,7 @@ const CANALES = {
         nombre: "video6",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
       },
-        ],
-      },
       {
-        inicio: 12,
-        fin: 18,
-        categoria: "Tardes",
-        episodios: [
-          {
         nombre: "Pelicula1",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/3b/s8/2/i/T/5/l/iT5lz.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1698507776-1698572426",
       },
@@ -258,14 +238,7 @@ const CANALES = {
         nombre: "Gravity Falls S01E04",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/69/s8/2/M/S/D/V/MSDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=689944064-689957599",
       },
-        ],
-      },
       {
-        inicio: 18,
-        fin: 24,
-        categoria: "Novelas y Series",
-        episodios: [
-           {
         nombre: "Bajoterra S01E02",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
       },
@@ -296,8 +269,6 @@ const CANALES = {
           {
         nombre: "pelicula4",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/40/s8/2/S/7/F/H/S7FHz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=706075648-706129551",
-      },
-        ],
       },
     ],
   },
@@ -474,19 +445,8 @@ async function loadEpisode(episode, episodeIndex, depth = 0, channelName) {
 
 async function buildSchedule(channelKey) {
   const channel = CANALES[channelKey];
-  let listaEpisodios = channel.episodios;
-
-  // Si el canal define bloques por horario, seleccionar la lista correspondiente
-  if (channel.bloquesHorarios && !listaEpisodios) {
-    const horaActual = new Date().getUTCHours();
-    const bloqueActual = channel.bloquesHorarios.find(
-      (b) => horaActual >= b.inicio && horaActual < b.fin
-    );
-    listaEpisodios = bloqueActual ? bloqueActual.episodios : channel.bloquesHorarios[0].episodios;
-  }
-
   const episodeLists = await Promise.all(
-    listaEpisodios.map((episode, index) => loadEpisode(episode, index, 0, channelKey))
+    channel.episodios.map((episode, index) => loadEpisode(episode, index, 0, channelKey)),
   );
 
   const segments = [];
@@ -733,7 +693,7 @@ export default {
 
     // ===== DETECTAR CANAL =====
     let channelKey = null;
-
+    
     const pathParts = url.pathname.split('/').filter(p => p);
     if (pathParts.length >= 1) {
       const possibleKey = pathParts[0];
