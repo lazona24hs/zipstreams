@@ -131,16 +131,12 @@ const CANALES = {
     epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
     episodios: [
       {
-        nombre: "video1",
+        nombre: "Pelicula11",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/37/s8/2/A/O/4/3/AO43z.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1893749248-1893821382",
       },
       {
-        nombre: "video2",
+        nombre: "pelicula22",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/20/s8/2/6/t/4/3/6t43z.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1737401856-1737467901",
-      },
-         {
-        nombre: "video3",
-        url: "https://hugh.cdn.rumble.cloud/video/fwe2/16/s8/2/Y/q/N/0/YqN0z.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=767793664-767852330",
       },
       {
         nombre: "video4",
