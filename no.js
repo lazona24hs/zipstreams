@@ -126,6 +126,28 @@ const CANALES = {
       },
     ],
   },
+  ziptvstream: {
+    nombre: "ZipTVstream 24/7",
+    epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
+    episodios: [
+      {
+        nombre: "Bajoterra S01E01",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/38/s8/2/A/F/Z/V/AFZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678022144-678035468",
+      },
+      {
+        nombre: "Bajoterra S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
+      },
+      {
+        nombre: "Bajoterra S01E03",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/89/s8/2/2/U/Z/V/2UZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679327232-679340467",
+      },
+      {
+        nombre: "Bajoterra S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
+      },
+    ],
+  },
 };
 
 // ============ CONFIGURACIÓN GLOBAL ============
