@@ -208,7 +208,7 @@ const CANALES = {
       },
       {
         nombre: "ElZorro4",
-        url: "https://rumble.com/hls-vod/jT4lOD_RDoI/playlist.m3u8?key=o_PX83ppWhTuDb6RsohyAEiJ3fjdhT2KKOeXUaTCNU8WDTFMb-qLMg&u=3&b=0",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/68/s8/2/E/B/K/r/EBKrz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=197671424-197686453",
       },
           {
         nombre: "video16",
