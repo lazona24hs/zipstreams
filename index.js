@@ -1,8 +1,15 @@
 // CANALES 24/7 - Cloudflare Worker HLS lineal
 
+// ============ CONFIGURACIÓN DE PAUSA COMERCIAL ============
+const PAUSA_COMERCIAL = {
+  nombre: "Pausa Comercial",
+  // Reemplaza esta URL con el enlace .m3u8 de tu video publicitario / comercial
+  url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+};
+const INTERVALO_COMERCIAL_SEGUNDOS = 45 * 60; // 45 minutos en segundos
+
 // ============ CONFIGURACIÓN DE CANALES ============
 const CANALES = {
-
   zipstream: {
     nombre: "ZTVstream 24/7",
     epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
@@ -158,10 +165,6 @@ const CANALES = {
         url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
       },
       {
-        nombre: "SEPARADORZIPTV",
-        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
-      },
-      {
         nombre: "video4",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
       },
@@ -178,10 +181,6 @@ const CANALES = {
         url: "https://hugh.cdn.rumble.cloud/video/fww1/bb/s8/2/s/a/f/W/safWA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166760448-166773045",
       },
       {
-        nombre: "SEPARADORZIPTV",
-        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
-      },
-      {
         nombre: "video8",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/90/s8/2/i/g/f/W/igfWA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=173828608-173841714",
       },
@@ -196,10 +195,6 @@ const CANALES = {
       {
         nombre: "video11",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/c5/s8/2/0/5/-/V/05-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168055808-168068526",
-      },
-      {
-        nombre: "SEPARADORZIPTV",
-        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
       },
     ],
   },
@@ -224,20 +219,12 @@ const CANALES = {
         url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/c/N/5/K/cN5KA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=102046208-102053810",
       },
       {
-        nombre: "SEPARADORZIPTV",
-        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
-      },
-      {
         nombre: "video5",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
       },
       {
         nombre: "video7",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/e4/s8/2/C/4/6/s/C46sA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=320742912-320754883",
-      },
-      {
-        nombre: "SEPARADORZIPTV",
-        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
       },
       {
         nombre: "video8",
@@ -262,10 +249,6 @@ const CANALES = {
       {
         nombre: "video13",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/f5/s8/2/z/U/X/F/zUXFy.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=74253312-74258857",
-      },
-      {
-        nombre: "SEPARADORZIPTV",
-        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
       },
     ],
   },
@@ -510,6 +493,11 @@ async function loadEpisode(episode, episodeIndex, depth = 0, channelName) {
 
 async function buildSchedule(channelKey) {
   const channel = CANALES[channelKey];
+  
+  // Cargar segmentos del comercial predeterminado
+  const commercialSegments = await loadEpisode(PAUSA_COMERCIAL, -1, 0, channelKey);
+  
+  // Cargar segmentos de cada episodio normal
   const episodeLists = await Promise.all(
     channel.episodios.map((episode, index) => loadEpisode(episode, index, 0, channelKey)),
   );
@@ -517,8 +505,12 @@ async function buildSchedule(channelKey) {
   const segments = [];
   let total = 0;
   let targetDuration = 1;
+  let timeSinceLastCommercial = 0;
 
-  for (const episodeSegments of episodeLists) {
+  for (let i = 0; i < episodeLists.length; i += 1) {
+    const episodeSegments = episodeLists[i];
+    let episodeDuration = 0;
+
     for (const sourceSegment of episodeSegments) {
       const duration = sourceSegment.duration;
       segments.push({
@@ -527,7 +519,26 @@ async function buildSchedule(channelKey) {
         end: total + duration,
       });
       total += duration;
+      episodeDuration += duration;
       targetDuration = Math.max(targetDuration, Math.ceil(duration));
+    }
+
+    timeSinceLastCommercial += episodeDuration;
+
+    // Si pasaron 45 minutos (o más), intercalar la pausa comercial al final del episodio
+    if (timeSinceLastCommercial >= INTERVALO_COMERCIAL_SEGUNDOS) {
+      for (const commSegment of commercialSegments) {
+        const duration = commSegment.duration;
+        segments.push({
+          ...commSegment,
+          episodeIndex: -100 - i, // Indice único para marcar discontinuidad
+          start: total,
+          end: total + duration,
+        });
+        total += duration;
+        targetDuration = Math.max(targetDuration, Math.ceil(duration));
+      }
+      timeSinceLastCommercial = 0; // Reiniciar temporizador
     }
   }
 
