@@ -1,7 +1,186 @@
-// BLUEY 24/7 & GRAVITY FALLS 24/7 & BAJOTERRA 24/7 - Cloudflare Worker HLS lineal
+// CANALES 24/7 - Cloudflare Worker HLS lineal
 
 // ============ CONFIGURACIÓN DE CANALES ============
 const CANALES = {
+
+  zipstream: {
+    nombre: "ZTVstream 24/7",
+    epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
+    episodios: [
+      {
+        nombre: "Pelicula11",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/37/s8/2/A/O/4/3/AO43z.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1893749248-1893821382",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "pelicula22",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/20/s8/2/6/t/4/3/6t43z.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1737401856-1737467901",
+      },
+      {
+        nombre: "video4",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/32/s8/2/E/W/5/L/EW5Lz.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1491895296-1491951705",
+      },
+      {
+        nombre: "video5",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/84/s8/2/S/L/5/K/SL5KA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=308797440-308808921",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "video6",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/5b/s8/2/Q/W/9/G/QW9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=156272128-156283815",
+      },
+      {
+        nombre: "video7",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/2b/s8/2/i/Q/9/G/iQ9GA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=355174400-355187672",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "video8",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/c/N/5/K/cN5KA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=102046208-102053810",
+      },
+      {
+        nombre: "video9",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
+      },
+      {
+        nombre: "video10",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "video11",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+      {
+        nombre: "video12",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
+      },
+      {
+        nombre: "video13",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "video14",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/94/s8/2/o/T/-/V/oT-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=167813120-167825834",
+      },
+      {
+        nombre: "video15",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "Pelicula1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/3b/s8/2/i/T/5/l/iT5lz.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1698507776-1698572426",
+      },
+      {
+        nombre: "Pelicula2",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/86/s8/2/k/c/e/m/kcemz.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1502260224-1502317150",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "ELZORRO1",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/37/s8/2/I/e/m/p/Iempz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=199261696-199276816",
+      },
+      {
+        nombre: "ElZORRO2",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/b1/s8/2/g/A/K/r/gAKrz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=199808000-199823121",
+      },
+      {
+        nombre: "ElZorro3",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/25/s8/2/C/y/K/r/CyKrz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=199579648-199594786",
+      },
+      {
+        nombre: "ElZorro4",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/68/s8/2/E/B/K/r/EBKrz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=197671424-197686453",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "video16",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
+      },
+      {
+        nombre: "video17",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
+      },
+      {
+        nombre: "Gravity Falls S01E01",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/06/s8/2/G/M/D/V/GMDVA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166684672-166697264",
+      },
+      {
+        nombre: "Gravity Falls S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/9f/s8/2/o/P/D/V/oPDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=665805824-665818855",
+      },
+      {
+        nombre: "Gravity Falls S01E03",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/79/s8/2/Q/Q/D/V/QQDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=675152384-675165606",
+      },
+      {
+        nombre: "Bajoterra S01E02",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
+      },
+      {
+        nombre: "Bajoterra S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
+      },
+      {
+        nombre: "Gravity Falls S01E04",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/69/s8/2/M/S/D/V/MSDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=689944064-689957599",
+      },
+      {
+        nombre: "Gravity Falls S01E05",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/11/s8/2/m/U/D/V/mUDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=632708096-632720414",
+      },
+      {
+        nombre: "video18",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/3a/s8/2/Q/P/-/V/QP-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=171651584-171664587",
+      },
+      {
+        nombre: "video19",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "pelicula3",
+        url: "https://hugh.cdn.rumble.cloud/video/fwe2/7c/s8/2/K/P/K/H/KPKHz.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=1560011264-1560070291",
+      },
+      {
+        nombre: "SEPARADORZIPTV",
+        url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
+      },
+      {
+        nombre: "pelicula4",
+        url: "https://hugh.cdn.rumble.cloud/video/fww1/40/s8/2/S/7/F/H/S7FHz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=706075648-706129551",
+      },
+    ],
+  },
   simpson: {
     nombre: "Los Simpsons 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
