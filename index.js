@@ -6,7 +6,7 @@ const CANALES = {
     nombre: "Los Simpsons 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
-            {
+      {
         nombre: "video1",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
       },
@@ -26,11 +26,11 @@ const CANALES = {
         nombre: "video4",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/aa/s8/2/k/R/-/V/kR-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=170514432-170527359",
       },
-            {
+      {
         nombre: "video5",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/94/s8/2/o/T/-/V/oT-VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=167813120-167825834",
       },
-        {
+      {
         nombre: "video6",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/83/s8/2/A/1/-/V/A1-VA.baa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=108758016-108770823",
       },
@@ -64,7 +64,7 @@ const CANALES = {
       },
     ],
   },
-    elchavo: {
+  elchavo: {
     nombre: "El Chavo 24/7",
     epoch: Date.UTC(2026, 0, 1, 0, 0, 0) / 1000,
     episodios: [
@@ -92,7 +92,7 @@ const CANALES = {
         nombre: "video5",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
       },
-            {
+      {
         nombre: "video7",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/e4/s8/2/C/4/6/s/C46sA.gaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=320742912-320754883",
       },
@@ -246,7 +246,7 @@ const CANALES = {
         nombre: "video9",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/da/s8/2/Y/V/9/G/YV9GA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=203008000-203023394",
       },
-          {
+      {
         nombre: "video10",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
       },
@@ -294,7 +294,7 @@ const CANALES = {
         nombre: "SEPARADORZIPTV",
         url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
       },
-         {
+      {
         nombre: "ELZORRO1",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/37/s8/2/I/e/m/p/Iempz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=199261696-199276816",
       },
@@ -314,7 +314,7 @@ const CANALES = {
         nombre: "SEPARADORZIPTV",
         url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
       },
-          {
+      {
         nombre: "video16",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/21/s8/2/U/_/5/V/U_5VA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=168278016-168290722",
       },
@@ -322,7 +322,7 @@ const CANALES = {
         nombre: "video17",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/ce/s8/2/8/q/-/V/8q-VA.oaa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=36645376-36658210",
       },
-           {
+      {
         nombre: "Gravity Falls S01E01",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/06/s8/2/G/M/D/V/GMDVA.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=166684672-166697264",
       },
@@ -342,11 +342,11 @@ const CANALES = {
         nombre: "Bajoterra S01E02",
         url: "https://hugh.cdn.rumble.cloud/video/fwe2/73/s8/2/i/P/Z/V/iPZVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=678354944-678368272",
       },
-        {
+      {
         nombre: "Bajoterra S01E04",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/21/s8/2/Y/s/0/V/Ys0VA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=679844352-679857677",
       },
-         {
+      {
         nombre: "Gravity Falls S01E04",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/69/s8/2/M/S/D/V/MSDVA.haa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=689944064-689957599",
       },
@@ -374,7 +374,7 @@ const CANALES = {
         nombre: "SEPARADORZIPTV",
         url: "https://pub-f00d5d649500451fb2fe8979f4685eea.r2.dev/YA-hls/master.m3u8",
       },
-          {
+      {
         nombre: "pelicula4",
         url: "https://hugh.cdn.rumble.cloud/video/fww1/40/s8/2/S/7/F/H/S7FHz.caa.tar?r_file=chunklist.m3u8&r_type=application%2Fvnd.apple.mpegurl&r_range=706075648-706129551",
       },
@@ -713,8 +713,8 @@ function programDateTimeFor(schedule, absolute, segment) {
 }
 
 function buildLivePlaylist(schedule, state) {
-  const first = Math.max(0, state.absolute - 15);
-  const last = state.absolute + 12;
+  const first = Math.max(0, state.absolute - SEGMENTOS_ATRAS);
+  const last = state.absolute + SEGMENTOS_ADELANTOS;
   const lines = [
     "#EXTM3U",
     `#EXT-X-VERSION:${schedule.playlistVersion}`,
@@ -741,8 +741,8 @@ function buildLivePlaylist(schedule, state) {
       previousMapTag = segment.mapTag;
     }
 
-    if (segment.keyTag !== previousKeyTag) {
-      lines.push(segment.keyTag || "#EXT-X-KEY:METHOD=NONE");
+    if (segment.keyTag && segment.keyTag !== previousKeyTag) {
+      lines.push(segment.keyTag);
       previousKeyTag = segment.keyTag;
     }
 
@@ -801,8 +801,8 @@ export default {
 
     // ===== DETECTAR CANAL =====
     let channelKey = null;
-    
-    const pathParts = url.pathname.split('/').filter(p => p);
+
+    const pathParts = url.pathname.split("/").filter((p) => p);
     if (pathParts.length >= 1) {
       const possibleKey = pathParts[0];
       if (CANALES[possibleKey]) {
@@ -814,7 +814,7 @@ export default {
     if (!channelKey) {
       return jsonResponse({
         mensaje: "Canales disponibles",
-        canales: Object.keys(CANALES).map(key => ({
+        canales: Object.keys(CANALES).map((key) => ({
           nombre: CANALES[key].nombre,
           url: `/${key}/live.m3u8`,
           status: `/${key}/status`,
@@ -827,16 +827,16 @@ export default {
       const state = getLiveState(schedule, Date.now() / 1000);
 
       // ===== RUTAS DEL CANAL =====
-      const remainingPath = '/' + pathParts.slice(1).join('/');
+      const remainingPath = "/" + pathParts.slice(1).join("/");
 
-      if (remainingPath === '/live.m3u8' || remainingPath === '') {
+      if (remainingPath === "/live.m3u8" || remainingPath === "/") {
         const playlist = buildLivePlaylist(schedule, state);
         return new Response(request.method === "HEAD" ? null : playlist, {
           headers: hlsHeaders(),
         });
       }
 
-      if (remainingPath === '/status') {
+      if (remainingPath === "/status") {
         const segment = schedule.segments[state.index];
         return jsonResponse({
           channel: schedule.channelName,
@@ -850,9 +850,10 @@ export default {
         });
       }
 
-      return new Response(`Canal ${schedule.channelName}. Usa /${channelKey}/live.m3u8`, {
-        headers: hlsHeaders(),
-      });
+      return new Response(
+        `Canal ${schedule.channelName}. Usa /${channelKey}/live.m3u8`,
+        { headers: hlsHeaders() },
+      );
     } catch (error) {
       console.error(`Error en ${channelKey}:`, error);
       return new Response(`Error generando la señal: ${errorText(error)}`, {
