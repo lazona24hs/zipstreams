@@ -198,7 +198,7 @@ const CANALES = {
       },
     ],
   },
-  ziptv: {
+  zipstream: {
     nombre: "ZipTVstream 24/7",
     epoch: Date.UTC(2024, 6, 1, 0, 0, 0) / 1000,
     episodios: [
